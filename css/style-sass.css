@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@media screen and (min-width: 481px) {
+  .sp {
+    display: none !important;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  /* 各画像の大きさ指定 */
+  img {
+    vertical-align: bottom;
+  }
+  img.creaker {
+    width: auto;
+    height: 23.4375vw;
+  }
+  img.background-img {
+    /* width: 1920px; */
+    height: auto;
+  }
+  .binbou {
+    width: 33.07292vw;
+    height: auto;
+  }
+  .container {
+    width: 100vw;
+    max-width: 1920px;
+    padding: 0;
+    margin: 0;
+  }
+  /* ヘッダー */
+  header {
+    width: 100%;
+    height: 5.20833vw;
+    min-height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: relative;
+    border-bottom: #424242;
+  }
+  header > .container-header {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-bottom: #424242;
+  }
+  .head-logo {
+    width: 133px;
+    height: 69px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin-left: 35px;
+  }
+  .img-logo {
+    width: 133px;
+    height: auto;
+  }
+  /* クラッカーのコンテナ */
+  .container.top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100%;
+  }
+  .left-cracer-container {
+    position: relative;
+  }
+  .cracer-img-1 {
+    position: absolute;
+    top: 25.46875vw;
+  }
+  .cracer-img-2 {
+    position: absolute;
+    top: 25.46875vw;
+  }
+  .cracer-img-3 {
+    position: absolute;
+    top: 25.46875vw;
+  }
+  .right-cracer-container {
+    position: relative;
+  }
+  .right-cracer-img-1 {
+    position: absolute;
+    top: 25.46875vw;
+    left: 66.875vw;
+  }
+  .right-cracer-img-2 {
+    position: absolute;
+    top: 25.46875vw;
+    left: 66.875vw;
+  }
+  .right-cracer-img-3 {
+    position: absolute;
+    top: 25.46875vw;
+    left: 66.875vw;
+  }
+  /* トップの文字 */
+  .Text-container {
+    width: 40.10417vw;
+    height: 50.52083vw;
+    margin: 0 auto;
+  }
+  .sab-text {
+    text-align: center;
+    padding-top: 12.08333vw;
+    padding-bottom: 6.30208vw;
+  }
+  .main-text {
+    text-align: center;
+  }
+  .sabText {
+    font-size: 3.125vw;
+  }
+  .mainText {
+    font-size: 7.96875vw;
+  }
+  /* メイン画像画面 */
+  .container.main {
+    width: 100vw;
+    height: 122.91667vw;
+    position: relative;
+  }
+  .main-img-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .main-img-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  /* 一番下文字と貧乏ちゃん */
+  .bottom-text {
+    margin: 0 auto;
+    width: 46.875vw;
+    height: 14.01042vw;
+  }
+  .bottomText {
+    font-size: 5.10417vw;
+  }
+  .bottom-img {
+    text-align: center;
+  }
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  font-family: "MyFont";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style-sass.css.map */
