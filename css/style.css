@@ -31,7 +31,6 @@ img.creaker {
   height: 450px;
 }
 img.background-img {
-  /* width: 1920px; */
   height: auto;
 }
 .binbou {
@@ -40,7 +39,6 @@ img.background-img {
 }
 
 .container {
-  /* width: 100vw; */
   max-width: 1920px;
   padding: 0;
   margin: 0;
