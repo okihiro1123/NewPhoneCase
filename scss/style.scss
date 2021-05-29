@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: "MyFont";
-  src: url(/font/Silom.ttf);
+  src: url("/font/Silom.ttf");
 }
 
 html,
@@ -116,7 +116,7 @@ header > .container-header {
 }
 
 /* トップの文字 */
-.Text-container {
+.text-container {
   width: 770px;
   height: 970px;
   margin: 0 auto;
@@ -163,7 +163,7 @@ header > .container-header {
   width: 900px;
   height: 269px;
 }
-.bottomText {
+.bottom-text {
   font-size: 98px;
 }
 
