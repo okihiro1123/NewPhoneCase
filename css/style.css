@@ -129,10 +129,10 @@ header > .container-header {
 .main-text {
   text-align: center;
 }
-.sabText {
+.sab-text__item {
   font-size: 60px;
 }
-.mainText {
+.main-text__item {
   font-size: 153px;
 }
 

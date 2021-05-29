@@ -78,7 +78,7 @@ $viewport: 375; // 基準となるビューポート
   }
   // テキスト
 
-  .sab2-Text {
+  .sab2-text {
     text-align: center;
     font-size: pxtovw(35);
     padding-top: pxtovw(40);
@@ -91,17 +91,17 @@ $viewport: 375; // 基準となるビューポート
     text-align: center;
     padding-top: pxtovw(17);
   }
-  .sabText {
+  .sab-text {
     font-size: pxtovw(21);
   }
-  .mainText {
+  .main-text {
     font-size: pxtovw(68);
   }
   // ボタン
   .sele-div {
     padding-top: pxtovw(24);
   }
-  .ReservationButton {
+  .reservation-button {
     padding-top: pxtovw(60);
     padding-bottom: pxtovw(30);
     padding-left: pxtovw(43);
@@ -131,7 +131,7 @@ $viewport: 375; // 基準となるビューポート
   .orders-color {
     color: #707070;
   }
-  .OrdersReceived {
+  .orders-received {
     font-size: pxtovw(50);
     text-align: center;
     padding-top: pxtovw(40);

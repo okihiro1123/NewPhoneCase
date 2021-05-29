@@ -109,7 +109,7 @@ $viewport: 1920; // 基準となるビューポート
   }
 
   /* トップの文字 */
-  .Text-container {
+  .text-container {
     width: pxtovw(770);
     height: pxtovw(970);
     margin: 0 auto;
@@ -122,10 +122,10 @@ $viewport: 1920; // 基準となるビューポート
   .main-text {
     text-align: center;
   }
-  .sabText {
+  .sab-text__item {
     font-size: pxtovw(60);
   }
-  .mainText {
+  .main-text__item {
     font-size: pxtovw(153);
   }
 
